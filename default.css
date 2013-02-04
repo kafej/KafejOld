@@ -1,0 +1,223 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #282828 url(pl/css/body_tlo.jpg);
+	font-size: 11px;
+}
+#content {
+width: 500px;
+margin:0 auto 0;
+margin-top: 100px;
+margin-left: 100px;
+cursor: move;
+}
+
+.wrap {
+float:left;
+clear:both;
+width:560px;
+margin-bottom:80px;
+margin-top: 40px;
+}
+
+.notes_img {
+position:relative;
+float:left;
+clear:both;
+width:200px;
+height:200px;
+}
+
+.note {
+position:absolute;
+top:0;
+left:0;
+padding:10px;
+background: url("pl/img/gradient.png") repeat-x scroll 0 -110px #7D7D7D;
+width: auto;
+}
+
+
+ul.listNotes,
+ul.listNotes li {
+display:block;
+list-style:none;
+padding:0;
+margin:0;
+}
+.zamknij{
+	margin-top: -70px;
+	margin-left: 600px;
+	width: 19px;
+	height: 18px;
+	cursor: pointer;
+}
+.close{
+	background-image:url(pl/img/close.png);
+	width: 19px;
+	height: 18px;
+	margin-left: 5px;
+	margin-top: 9px;
+	z-index:4;
+}
+.close:hover{
+	background-image:url(pl/img/close1.png);
+	display: block;
+	margin-top: 8px;
+	width: 19px;
+	height: 18px;
+	z-index:66;
+}
+.kupa{
+	font-size: 44px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	color: #E7E5E5;
+}
+a {
+	color: #333333;
+}
+a img {
+	border:none;
+}
+#nav ul {
+    background: url("pl/img/gradient.png") repeat-x scroll 0 0 #DDDDDD;
+    border: 1px solid #B4B4B4;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    display: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 35px;
+    width: 185px;
+}
+#nav ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#nav ul a {
+    font-weight: normal;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#nav ul ul {
+    left: 181px;
+    top: -3px;
+}
+#nav ul li:first-child > a {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+#nav ul li:last-child > a {
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+#nav:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+#nav {
+    display: inline-block;
+}
+.wrapper {
+	width:1000px;
+}
+.blocks p {
+	margin-bottom:15px;
+	position:relative;
+}
+.btn {
+	display:block;
+	float:left;
+	height:31px;
+	line-height:31px;
+	padding:0 10px;
+	background:url(pl/gfx/bgbtn.jpg) repeat-x;
+	color:#565e62;
+	font-weight:bold;
+	font-size:11px;
+	border:1px solid #e1e0df;
+	outline:none;
+	cursor:pointer;
+}
+.text,
+.textarea {
+	padding:5px 10px;
+	height:27px;
+	border:1px solid #ddd;
+	color:#333;
+	background:url(pl/gfx/bginput.jpg) repeat-x bottom #fff;
+	position:relative;
+	z-index:2;
+}
+.text {
+	width:220px;
+}
+.textarea {
+	height:150px;
+	width:350px;
+}
+.blocks label {
+	float:left;
+	width:100px;
+	line-height:37px;
+	text-align:right;
+	margin-right:15px;
+	font-weight:bold;
+	color:#666;
+}
+.blocks label.error,
+.blocks label.ok {
+	position:absolute;
+	z-index:1;
+	top:-4px;
+	left:110px;
+	padding:5px 15px 5px 280px;
+	/*reset label*/
+	width:auto;
+	text-align:left;
+	margin:0;
+	background-repeat:no-repeat;
+	background-position:257px 16px;
+}
+.blocks label.ok {
+	background-image:url(pl/gfx/icook.gif);
+	background-color:#deefca;
+	color:#577530;
+}
+.blocks label.error {
+	background-image:url(pl/gfx/icofail.gif);
+	background-color:#f5d6d7;
+	color:#c81925;
+}
+.area label.ok,
+.area label.error {
+	min-height:163px;
+	padding-left:410px;
+	background-position:387px 16px;
+}
+/* CSS3 */
+.btn,
+.text,
+.textarea,
+.blocks label.error,
+.blocks label.ok { 
+	border-radius:8px;
+}
+html[xmlns] #nav {
+    display: block;
+}
+* html #nav {
+    height: 1%;
+}
