@@ -22,19 +22,19 @@ $(function(){
 		},
 		messages: {
 			name: {
-				required: 'Pole wymagane',
-				minlength: 'Minimalna długość: 3'
+				required: 'Required field',
+				minlength: 'Minimum length: 3'
 			},
 			company: {
-				required: 'Pole wymagane'
+				required: 'Required field'
 			},
 			subject: {
-				required: 'Pole wymagane',
-				minlength: 'Minimalna długość: 3'
+				required: 'Required field',
+				minlength: 'Minimum length: 3'
 			},
-			email: 'Nieprawidłowy adres e-mail',
+			email: 'Incorrect e-mail',
 			message: {
-				required: 'Pole wymagane'
+				required: 'Required field'
 			}
 		},
 		success: function(label) {
