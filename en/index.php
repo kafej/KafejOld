@@ -437,7 +437,6 @@
 							{ src: 'img5.jpg' },
 							{ src: 'img6.jpg' },
 							{ src: 'img7.jpg' },
-							{ src: 'img8.jpg' },
 							{ src: 'img9.jpg' },
 							{ src: 'img10.jpg' },
 							{ src: 'img11.jpg' },
@@ -453,7 +452,8 @@
 							{ src: 'img21.jpg' },
 							{ src: 'img22.jpg' },
 							{ src: 'img23.jpg' },
-							{ src: 'img24.jpg' }
+							{ src: 'img24.jpg' },
+							{ src: 'nazwy-1.jpg' }
 						] 
 					);
 					$('body').css('cursor', 'wait');
@@ -1090,10 +1090,10 @@
 				window.open('https://twitter.com/kafej666');
 			});
 			$('#szkoll').click(function() {
-				window.open('http://www.pwsz.pl/');
+				window.open('http://www.zut.edu.pl/');
 			});
 			$('#szkolll').click(function() {
-				window.open('http://pl.wikipedia.org/wiki/In%C5%BCynier');
+				window.open('http://en.wikipedia.org/wiki/Master%27s_degree');
 			});
 			$('#toeicl').click(function() {
 				window.open('http://www.pl.toeic.eu/');
@@ -1338,14 +1338,15 @@
 		</div>
 		<div class="tekst">
 			<div class="tekst-glowna">
-				<div style="text-indent: 2cm;">Last July, I graduated from the computer engineering faculty, where I had an engineer’s title awarded. In the course of my study, I was a secretary of a research circle 
-				set up together with my fellow students, which dealt with artificial intelligence issues. 
-				Apart from carrying out the circle’s programme, I was responsible, among other things, for preparing reports, giving in projects within set time limits and taking care that the mood amongst the club members was good. I can give myself the credit for such achievements 
-				as the grade average over 4.0 for the whole course of engineering programme, a certificate in Business English, and a passed certificate in the Japanese language – level 4 (basic) and N4 (everyday use). The said certificates are a perfect example of my deep interest in Japan and its culture, but they also imply that despite studying such a hard subject as IT, I management to learn such a demanding language as Japanese is.</div>
+				<div style="text-indent: 2cm;">I graduated from the computer science faculties, where I had a master 
+				and an engineer’s titles awarded. In the course of my study, I was a secretary of a research circle set up together with my fellow students, which dealt with artificial intelligence issues. 
+				I can give myself the credit for such achievements as the grade average over 4.0 for the whole course of engineering programme and 4.5 for the whole course of master programme, 
+				a certificate in Business English, and a passed certificate in the Japanese language – level 4, N4 and N3. The said certificates are a perfect example of my deep interest in Japan and its culture, but they also imply that despite studying such a hard subject as IT, I management 
+				to learn such a demanding language as Japanese is.</div>
 				<br /><br />
 
 				<div style="text-indent: 2cm;">In my short, though intensive career, I have had the opportunity to work both 
-				as a computer programmer and as an administrator of Windows-based servers. I was also responsible for designing and administering a LAN (wired) and WLAN (wireless) in a small independent company. A large part of my duties involved help-desk support provided to users. Remote support and troubleshooting related to hardware has always been a source of great satisfaction to me.</div>
+				as a computer programmer and as an administrator of Windows-based servers. A large part of my duties involved help-desk support provided to users. Remote support and troubleshooting related to hardware has always been a source of great satisfaction to me.</div>
 				<br /><br />
 
 				<div style="text-indent: 2cm;">Ever since my early childhood, I have been interested in broadly defined IT and Japanese culture. I believe that the combination of these two passions is the best thing that could happen to me. I also hope that joining the knowledge acquired both at my university and professional career with the command of such languages as English and Japanese will pay off in the future.</div><br /><br />
@@ -1517,7 +1518,7 @@
 			<div class="tekst">
 			</div>
 			<div class="cerciki" style="left:35%;">
-				<a id="zoom2" href="img/galeria/uczelnia1.jpg" class="zoom"><img src="img/galeria/img22.jpg" style="margin-top:-100px;max-width: 900px; max-height: 750px;" alt=""></a>
+				<a id="zoom2" href="img/galeria/nazwy-2.jpg" class="zoom"><img src="img/galeria/nazwy-1.jpg" style="max-width: 900px; max-height: 750px;" alt=""></a>
 			</div>
 		</div>
 		<div id="grafika" class="kupa" style="display: none;">
@@ -1681,10 +1682,12 @@
 						</li>
 						<li class="cv1" style="width:400px;">
 									<b>EDUCATION</b><br />
-									2011 - now
+									2011 - 2013
 										<br  /><div style="margin-left: 6px"><b>West Pomeranian University of Technology in Szczecin</b></div>
 										<div style="margin-left: 6px"><b>Faculty of Computer Science and Information Technology</b></div>
 										<div style="margin-left: 6px">- MA studies: Computer Science</div>
+										<div style="margin-left: 6px">- Graduated with the final grade: <b>more than good(B+)</b></div>
+										<div style="margin-left: 6px">- Awarded title: <b>Master</b></div>
 										<div style="margin-left: 6px">- Schoolarship for academic performance</div><br />
 									2009 - 2011
 										<br  /><div style="margin-left: 6px"><b>State Higher Vocational School in Gorzow Wlkp.</b></div>

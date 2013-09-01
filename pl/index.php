@@ -454,7 +454,6 @@
 							{ src: 'img5.jpg' },
 							{ src: 'img6.jpg' },
 							{ src: 'img7.jpg' },
-							{ src: 'img8.jpg' },
 							{ src: 'img9.jpg' },
 							{ src: 'img10.jpg' },
 							{ src: 'img11.jpg' },
@@ -470,7 +469,8 @@
 							{ src: 'img21.jpg' },
 							{ src: 'img22.jpg' },
 							{ src: 'img23.jpg' },
-							{ src: 'img24.jpg' }
+							{ src: 'img24.jpg' },
+							{ src: 'nazwy-1.jpg' }
 						] 
 					);
 					$('body').css('cursor', 'wait');
@@ -1119,10 +1119,10 @@
 				window.open('https://twitter.com/kafej666');
 			});
 			$('#szkoll').click(function() {
-				window.open('http://www.pwsz.pl/');
+				window.open('http://www.wi.zut.edu.pl/');
 			});
 			$('#szkolll').click(function() {
-				window.open('http://pl.wikipedia.org/wiki/In%C5%BCynier');
+				window.open('http://pl.wikipedia.org/wiki/Magister');
 			});
 			$('#toeicl').click(function() {
 				window.open('http://www.pl.toeic.eu/');
@@ -1367,17 +1367,14 @@
 		</div>
 		<div class="tekst">
 			<div class="tekst-glowna">
-				<div style="text-indent: 2cm;">W lipcu 2011 roku ukończyłem informatyczne studia inżynierskie, po których został nadany mi tytuł inżyniera. W trakcie trwania studiów byłem sekretarzem utworzonego wraz 
-				z kolegami koła naukowego, zajmującego się tematyką sztucznej inteligencji. W kole tym byłem oprócz realizowania tematyki zajęć odpowiedzialny między innymi 
-				za przygotowywanie raportów, oddawanie projektów w wyznaczonym czasie, czy dbanie 
-				o dobrą atmosferę między członkami klubu. Mogę także pochwalić się takimi osiągnięciami, jak średnia powyżej 4.0 za cały tok studiów inżynierskich, zdanym na poziomie biznesowym certyfikatem z języka Angielskiego, czy zdanym certyfikatem z języka Japońskiego 
-				na poziomie 4 (podstawowy) i N4 (użytku codziennego). Certyfikaty te są doskonałym przykładem głębokiego zainteresowania Japonią i jej kulturą, jest to także fakt, że mimo studiowania tak ciężkiego przedmiotu jakim jest Informatyka udało mi się sukcesywnie uczyć tak wymagającego pod względem czasu języka jakim jest Japoński.</div><br /><br />
+				<div style="text-indent: 2cm;">Ukończyłem z powodzeniem magisterskie i inżynierskie studia Informatyczne. 
+				W trakcie trwania studiów inżynierskich byłem sekretarzem utworzonego wraz z kolegami koła naukowego, zajmującego się tematyką sztucznej inteligencji.. Mogę także pochwalić 
+				się takimi osiągnięciami, jak średnia powyżej 4.0 za cały tok studiów inżynierskich i 4.5 
+				za cały tok studiów magisterskich. Zdanym na poziomie biznesowym certyfikatem z języka Angielskiego, czy zdanym certyfikatem z języka Japońskiego na poziomie 4, N4 i N3. 
+				Certyfikaty te są doskonałym przykładem głębokiego zainteresowania Japonią i jej kulturą, jest to także fakt, że mimo studiowania tak ciężkiego przedmiotu, jakim jest Informatyka udało mi się sukcesywnie uczyć tak wymagającego pod względem czasu języka, jakim jest Japoński.</div><br /><br />
 
 				<div style="text-indent: 2cm;">W swojej krótkiej, lecz intensywnej karierze miałem okazję pracować na stanowiskach zarówno programistycznych, jak i związanych z administrowaniem serwerów opartych 
-				o systemy operacyjne Windows. Byłem także odpowiedzialny za stworzenie 
-				i administrowanie sieci LAN (przewodowej) i WLAN (bezprzewodowej) w małej niezależnej firmie. Dużą część moich obowiązków stanowiło zawsze wsparcie użytkowników 
-				w kwestiach IT. Zdalna pomoc i rozwiązywanie problemów sprzętowych sprawiało 
-				mi zawsze wielką satysfakcję.</div><br /><br />
+				o systemy operacyjne Windows. Dużą część moich obowiązków stanowiło zawsze wsparcie użytkowników w kwestiach IT. Zdalna pomoc i rozwiązywanie problemów sprzętowych sprawiało mi zawsze wielką satysfakcję.</div><br /><br />
 
 				<div style="text-indent: 2cm;">Od najmłodszych lat interesuje mnie szeroko pojęta informatyka. Liczę na to, że kombinacja wiedzy zdobytej 
 				na uczelni i podczas pracy zawodowej, a także znajomość takich języków, jak Angielski 
@@ -1552,7 +1549,7 @@
 			<div class="tekst">
 			</div>
 			<div class="cerciki" style="left:35%;">
-				<a id="zoom2" href="img/galeria/uczelnia1.jpg" class="zoom"><img src="img/galeria/img16.jpg" style="max-width: 900px; max-height: 750px;" alt=""></a>
+				<a id="zoom2" href="img/galeria/nazwy-2.jpg" class="zoom"><img src="img/galeria/nazwy-1.jpg" style="max-width: 900px; max-height: 750px;" alt=""></a>
 			</div>
 		</div>
 		<div id="grafika" class="kupa" style="display: none;">
@@ -1716,10 +1713,11 @@
 						</li>
 						<li class="cv1" style="width:400px;">
 									<b>WYKSZTAŁCENIE</b><br />
-									2011 - now
+									2011 - 2013
 										<br  /><div style="margin-left: 6px"><b>Zachodniopomorski Uniwersytet Technologiczny w Szczecinie</b></div>
 										<div style="margin-left: 6px"><b>Wydział Informatyki</b></div>
 										<div style="margin-left: 6px">- Studia magisterskie: Informatyka</div>
+										<div style="margin-left: 6px">- Dyplom z oceny końcowej: <b>dobry plus</b></div>
 										<div style="margin-left: 6px">- Stypendium Rektora dla najlepszych studentów</div><br />
 									2009 - 2011
 										<br  /><div style="margin-left: 6px"><b>Państwowa Wyższa Szkoła Zawodowa w Gorzowie Wlkp.</b></div>
